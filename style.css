@@ -1,0 +1,165 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 0;
+}
+
+.left-side-header {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.left-side-header, .right-side-header {
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1f2937;
+    height: 500px;
+    gap: 50px;
+}
+
+.intro-left {
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.intro-main-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.button1, .button2 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+img {
+    height: 350px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    padding: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 80px;
+}
+
+.full-card {
+    width: 150px;
+    text-align:center
+}
+
+.card {
+    width: 150px;
+    height: 170px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    display: flex;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px;
+    
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    width: 770px;
+    text-align:center;
+}
+
+.author {
+    width: 770px;
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.login-box {
+    width: 1000px;
+    height: 160px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-box-left {
+    color: white;
+}
+
+.login-text1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button2 {
+    border: white solid 2px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+
+
+
